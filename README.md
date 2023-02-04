@@ -4,4 +4,4 @@
 
 Чтобы избежать проблем с лицензированием изображений, которые отображены на скриншотах, их здесь не будет.
 
-![Скриншот программы](https://kagaminep.neocities.org/kagamishell/screenshots/kstt_screenshot.png)
+![Скриншот программы](https://kagaminep.neocities.org/kagamishell/screenshots/kstt-screenshot.png)
