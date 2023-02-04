@@ -1,1 +1,3 @@
-# ThemeTester
+# KagamiShell Theme Tester
+
+Данная программа представляет собой утилиту для тестирования схем оформления оболочки KagamiShell.
