@@ -34,7 +34,6 @@ type
     lblInfoBox: TLabel;
     xpmnfst1: TXPManifest;
     mmoInfoBox: TMemo;
-    lblVersion: TLabel;
     lblNotice: TLabel;
     btnRefresh: TButton;
     procedure FormCreate(Sender: TObject);

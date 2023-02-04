@@ -1,10 +1,10 @@
 object MainForm: TMainForm
   Left = 1367
   Top = 201
-  Width = 530
-  Height = 655
   BorderIcons = [biSystemMenu]
-  Caption = 'KagamiShell Theme Tester'
+  Caption = 'KagamiShell Theme Tester ['#1057#1073#1086#1088#1082#1072' 2.0.0 '#1086#1090' 05.02.2023 02:40]'
+  ClientHeight = 616
+  ClientWidth = 514
   Color = clBtnFace
   Font.Charset = RUSSIAN_CHARSET
   Font.Color = clWindowText
@@ -20,6 +20,7 @@ object MainForm: TMainForm
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 15
+  GlassFrame.Bottom = 50
   object lblURL: TLabel
     Left = 8
     Top = 16
@@ -97,25 +98,14 @@ object MainForm: TMainForm
     Height = 15
     Caption = #1048#1085#1092#1086#1088#1084#1072#1094#1080#1086#1085#1085#1099#1081' '#1073#1083#1086#1082
   end
-  object lblVersion: TLabel
-    Left = 376
-    Top = 600
-    Width = 131
-    Height = 12
-    Caption = #1042#1077#1088#1089#1080#1103' 1.0.0 '#1086#1090' 01.01.2023 00:00'
-    Font.Charset = RUSSIAN_CHARSET
-    Font.Color = clGray
-    Font.Height = -9
-    Font.Name = 'Segoe UI'
-    Font.Style = []
-    ParentFont = False
-  end
   object lblNotice: TLabel
     Left = 8
-    Top = 560
+    Top = 587
     Width = 318
     Height = 15
     Caption = #1063#1090#1086#1073#1099' '#1089#1082#1088#1099#1090#1100' '#1080#1083#1080' '#1087#1086#1082#1072#1079#1072#1090#1100' '#1101#1090#1086' '#1086#1082#1085#1086', '#1085#1072#1078#1084#1080#1090#1077' Win + F12.'
+    Color = clBackground
+    ParentColor = False
   end
   object edtURL: TEdit
     Left = 176
@@ -125,18 +115,18 @@ object MainForm: TMainForm
     TabOrder = 0
   end
   object ListViewSheets: TListView
-    Left = 80
-    Top = 56
-    Width = 417
+    Left = 8
+    Top = 77
+    Width = 489
     Height = 145
     Columns = <
       item
         Caption = #1053#1072#1079#1074#1072#1085#1080#1077
-        Width = 200
+        Width = 230
       end
       item
         Caption = #1050#1072#1088#1090#1080#1085#1082#1072' ('#1085#1077#1086#1073#1103#1079#1072#1090#1077#1083#1100#1085#1086')'
-        Width = 200
+        Width = 230
       end>
     ColumnClick = False
     HideSelection = False
@@ -210,12 +200,12 @@ object MainForm: TMainForm
     Left = 8
     Top = 464
     Width = 489
-    Height = 81
+    Height = 97
     TabOrder = 10
   end
   object btnRefresh: TButton
-    Left = 368
-    Top = 560
+    Left = 377
+    Top = 583
     Width = 129
     Height = 25
     Caption = #1054#1073#1085#1086#1074#1080#1090#1100' '#1089#1090#1088#1072#1085#1080#1094#1091
